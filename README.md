@@ -1,3 +1,5 @@
 # Castello-Gorizia-PCTO
 
-GG
+Versione: 0.1
+
+Descrizione: 
