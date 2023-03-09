@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: rgb(235, 235, 235);
+}
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: block;
+    padding: 0.5%;
+    background-color: rgb(95, 95, 95);
+}
+nav{
+    display: block;
+    width: 100%;
+    padding: 0.5%;
+    text-align: center;
+}
+.menu-link {
+    color: rgb(140, 140, 140);
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+.menu-link:hover{
+    transition: 1.5s;
+    color: white;
+}
+
+.table{
+    text-align: center;
+    border-radius: 0.5em;
+}
+.tableRow{
+    background-color:rgb(180, 180, 180);
+}
+.tableRow:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+#but_import{
+    content-align: right;
+    display: inline-block;
+    padding: 1.5%;
+    border-radius: 0.5em;
+    border: none;
+    font-weight: bold;
+    background-color: grey;
+}
+#but_import:hover{
+    cursor: pointer;
+    transition: 1.5s;
+    background-color: lightgray;
+}
+#tdLoader{
+    padding: 1.5%;
+    font-size: large;
+}
+.tableViewLoader{
+    width: 40%;
+    padding: 1.0%;
+    background-color: white;
+    border-radius: 0.5em;
+    text-align: center;
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
